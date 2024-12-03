@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/2/user/2595379).
-* Наставник: `Неизвестно`.
+* Студент: [Виолетта Китайкина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2595379).
+* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
