@@ -2,7 +2,7 @@
 
 * Студент: [Виолетта Китайкина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2595379).
 * Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
-
+* Сайт: [Мой проект Седона](https://miceviolet.github.io/2595379-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
