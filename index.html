@@ -54,65 +54,101 @@
 
       <section class="description"></section>
       <h1 class="visually-hidden">Седона</h1>
+      <img src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+      background-image
       <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
       <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
 
       <section class="advantages">
-        <div>Настоящий городок
-          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        </div>
+        <ul>
 
-        <div>Небольшая площадь
-          <p>Все достопримечательности находятся очень близко</p>
-        </div>
+          <li>
+            <article>
+            <h3>Настоящий городок</h3>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="#" alt="Гостиница">
+          </article>
+          </li>
 
-        <div>Красивая дорога
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
+         <li>
+          <article>
+         <h3>Небольшая площадь</h3>
+           <p>Все достопримечательности находятся очень близко</p>
+          </article>
+          </li>
 
-        <div>Мало туристов
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
-        </div>
+         <li>
+          <article>
+         <h3>Красивая дорога</h3>
+           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </article>
+          </li>
 
-        <div>Там есть мост дьявола
-          <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        </div>
+        <li>
+          <article>
+           <h3>Мало туристов</h3>
+           <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </article>
+          </li>
+
+         <li>
+          <article>
+          <h3>Там есть мост дьявола</h3>
+           <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+           <img src="#" alt="Каньон">
+          </article>
+          </li>
+        </ul>
       </section>
 
       <section class="activity">
+        <ul>
+
+          <li>
+            <article>
         <h2 class="visually-hidden">Развлечения</h2>
         <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
         <p>Опытный персонал и качественное обслуживание!</p>
-        <div>
-          <img src="#" width="75" height="72" alt="Жилье">
-          Жильё
+          </li>
+          </article>
+
+          <li>
+            background-image
+          <p>Жильё</p>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        </div>
-        <div>
-          <img src="#" width="75" height="72" alt="Бургер">
-          Еда
+          </li>
+
+          <li>
+         background-image
+          <p>Еда</p>
           <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </div>
-        <div>
-          <img src="#" width="75" height="72" alt="Подарок">
-          Сувениры
+        </li>
+
+          <li>
+            background-image
+          <p>Сувениры</p>
           <p>Не только китайского, но и настоящего местного производства!</p>
-        </div>
+        </li>
+      </ul>
       </section>
 
       <section class="call-to-action">
-        <h3 class="visually-hidden">Отели</h3>
+        <h2 class="visually-hidden">Отели</h2>
           <p class="hotel-search-form">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-              <a class="button"href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+              <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
 
       <section class="subscription">
-        <h4 class="visually-hidden">Информация</h4>
-        <form>Подпишитесь на рассылку
-
+        <h2 class="visually-hidden">Информация</h2>
+        <form action="https://echo.htmlacademy.ru/" method="get">
+        <p>Подпишитесь на рассылку</p>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input type="email" placeholder="Ваш e-mail">
-        <button>Подписаться</button>
+        <label class="visually-hidden" for="email-input">
+          E-mail
+        </label>
+        <input id="email-input" type="email" placeholder="Ваш e-mail" name="email-input" required>
+
+        <button type="submit">Подписаться</button>
         </form>
 
       </section>
@@ -125,17 +161,18 @@
       <section class="footer-social">
         <ul class="footer-social-list">
            <li class="footer-social-items">
-               <a class="button" href="https://vk.com/htmlacademy">
+               <a class="button" href="https://vk.com/htmlacademy" target="_blank" rel="nofollow noreffer nooppen">
                    <span class="visually-hidden">Vkontakte</span>
                </a>
            </li>
            <li class="footer-social-items">
-               <a class="button" href="https://t.me/htmlacademy">
+               <a class="button" href="https://t.me/htmlacademy" target="_blank" rel="nofollow noreffer nooppen">
                    <span class="visually-hidden">Telegram</span>
                </a>
            </li>
            <li class="footer-social-items">
-               <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+            <h2>Социальные сети</h2>
+               <a class="button" href="https://www.youtube.com/user/htmlacademyru" target="_blank" rel="nofollow noreffer nooppen">
                    <span class="visually-hidden">Youtube</span>
                </a>
            </li>
@@ -143,12 +180,14 @@
        </section>
 
        <section class="footer-contacts">
+        <h2>Контакты</h2>
        <a class="contacts-phone" href="tel:+788128121212">+7 (812) 812-12-12</a>
       </section>
 
       <section class="footer-logo">
+        <h2>Партнеры</h2>
        <a href="https://htmlacademy.ru/intensive/htmlcss">
-       <img class="logo" src="images/htmlacademy-logo.svg" width="14.9" height="32.9" alt="Логотип html.academy"></a>
+       <img class="logo" src="images/htmlacademy-logo.svg" width="14" height="32" alt="Логотип html.academy" ></a>
       </section>
 
    </footer>
