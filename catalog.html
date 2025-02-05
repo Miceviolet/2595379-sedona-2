@@ -9,13 +9,13 @@
   </head>
 
   <body>
-    <header>
-      <a class="main-header-logo" href="index.html">
+    <header class="header">
+      <a class="main-header-logo">
         <img src="images/logo.svg" width="170" height="70" alt="Логотип сайта городка Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item">
+          <li class="navigation-item-active">
             <a class="navigation-link" href="#">Главная</a>
           </li>
           <li class="navigation-item">
@@ -37,12 +37,12 @@
           </li>
           <li class="navigation-item">
             <a class="user-navigation-link" href="#">
-              <span class="visually-hidden">
-                Избранное
+              <span class="user-navigation-link-like-count">
+                12
               </span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-button">
             <a class="button" href="#">ХОЧУ СЮДА!</a>
           </li>
         </ul>
@@ -242,17 +242,16 @@
 
       <!-- Подписка -->
 
-      <section class="subscription">
-        <h2 class="visually-hidden">Подписка на рассылку</h2>
-        <form action="https://echo.htmlacademy.ru/" method="get">
-          <p>Подпишитесь на рассылку</p>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="newsletter-subscription-index">
+        <h2 class="subscription">Подпишитесь на рассылку</h2>
+        <form class="subscribe-to-newsletter" action="https://echo.htmlacademy.ru/" method="get">
+          <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <label class="visually-hidden" for="email-input">
             E-mail
           </label>
-          <input id="email-input" type="email" placeholder="Ваш e-mail" name="email" required>
+          <input id="email-input" class="email-field" type="email" placeholder="Ваш e-mail" name="email" required>
 
-          <button type="submit">Подписаться</button>
+          <button class="subscribe" type="submit">Подписаться</button>
         </form>
 
       </section>
